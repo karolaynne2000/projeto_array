@@ -1,12 +1,8 @@
-// let contador = 0;
-// while (contador < 5) {
-// console.log("Volta número: " + contador);
+let numeros = [2,3,2];
+function calcularMedia(numeros) {
+  let soma = numeros.reduce((acumulador, valorAtual) => acumulador + valorAtual, 0);
+  return soma / numeros.length;
+}
 
-// for(let i=1; i<=10; i++)
-// {
-// console.log('6 *' +  i + ' = ' + 6 * i);
-// }
-
-// contador++;
-// }
-// console.log("Acabou o while!");
+let media = calcularMedia(numeros);
+console.log('A média é: '+ media);

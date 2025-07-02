@@ -1,6 +1,6 @@
 
-// inicialização, condição, contador
-for(let i=1; i<=10; i++)
-{
-console.log('6 *' +  i + ' = ' + 6 * i);
-}
+
+let nome = 'Olivia'
+let idade = '23'
+
+console.log ('Olá, meu nome é ' + nome + ' e eu tenho ' + idade + ' anos' );

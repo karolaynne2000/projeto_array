@@ -1,9 +1,10 @@
-let prompt = require('prompt-sync')();
-let frutas = [maça,pera,uva, goiaba];
-let quantidade =parseFloat(prompt('digite a qtd de vezes: '));
+prompt = require('prompt-sync')();
+let nome = prompt('Digite o nome do funcionário: ');
+let salario = parseFloat(prompt('Digite o salário do funcionário: '));
 
-for (i=0; i<=frutas; i++)
-{
-    let frutas = prompt ('digita a fruta')
-    console.log('A fruta '+ i + 'eh'+ frutas)
-}   
+
+let aumento = salario * 0.10;
+let novoSalario = salario + aumento;
+
+console.log('O funcionário ' + nome + ' teve um aumento de 10%.');
+console.log('Seu novo salário é R$: '+ novoSalario.toFixed(2));

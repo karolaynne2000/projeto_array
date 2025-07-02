@@ -23,8 +23,14 @@ console.log('(5) => Sair ');
 let numero =parseFloat(prompt('Escolha uma opção:'));
  
         console.log('Tabuada do: ', numero);
-        console.log (operacao)
-           for (let i = 1; i <= 10; i++)
+
+
+
+
+
+
+        
+       
   break; // Sai do loop quando a senha estiver correta
     } else {
         tentativas++;
@@ -60,8 +66,9 @@ switch (operacao ) {
 console.log(numero + ' / ' + i + ' = ' + (numero / i));
    }
    case '5':
+       for (i = 1; i <= 10; i++ ){
     console.log('O programa foi encerrado');
-
+       }
   break;
   default:
     console.log('Operação inválida');
